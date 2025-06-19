@@ -1,0 +1,63 @@
+.project {
+    position: relative;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background: linear-gradient(#3b3b3b , #1f1f1f);
+}
+
+
+
+.project .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    transition: .5s;
+
+}
+.project .cards:hover  {
+    transform: translateY(-25px);
+}
+.project .cards .card {
+    width: 22rem;
+    height: 100%;
+    background-color: #575757;
+}
+.project img{
+    position: relative;
+    bottom:  20%;
+    width: 80%;
+    border-radius: 50px;
+}
+.project h1{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1.5rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+.project .card h1{
+    position: relative;
+    bottom: 15%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project h5{
+    color: #fff;
+    font-size: 25px;
+    flex-direction: row;
+    position: relative;
+    bottom: 10%;
+}
+@media screen and (max-width:768px) {
+    .project h1{
+        font-size: 1.2rem;
+    }
+}

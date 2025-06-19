@@ -1,0 +1,21 @@
+.flag{
+    position: absolute;
+    height: 2vh;
+    gap: .3rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    padding-top: 5rem;
+    padding-right: 1rem;
+}
+@media (max-width:768px) {
+    .flag{
+        padding-top: 6.5rem;
+
+    }
+    
+}
+.flag img{
+    width: 25px;
+}

@@ -1,0 +1,118 @@
+.Services {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+    overflow: hidden;
+
+}
+.Services .services-text {
+    padding-top: 3rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Services .services-text h1{
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.Services .services .cards {
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 2rem;
+}
+
+
+.Services .services .cards .card {
+    text-align: center;
+    width:22rem;
+    min-height: 340px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    border-radius: 25px;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(80, 80, 80, 0.829) 0% , #1f1f1fb4 75%);
+}
+.card-body{
+    padding-top: 3rem;
+    text-align: center;
+}
+.Services .services .cards .card .card-body .card-title1{
+text-align: center;
+    color: #fff;
+    padding: 3rem;
+    padding-top: 65px;
+}
+.Services .services .cards .card .card-body .card-title2{
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    color: #fff;
+    left: .5rem;
+}
+.Services .services .cards .card .card-body .card-title3{
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-left: 2.5rem;
+
+    color: #fff;
+}
+.Services .services .cards .card .card-body .card-title4{
+    text-align: center;
+    padding-left: 3rem;
+    color: #fff;
+}
+.Services .services .cards .card .card-body .card-title5{
+    color: #fff;
+    padding:20px 90px;
+}
+.Services .services .cards .card .card-body .card-title6{
+    padding-top: 7rem;
+    color: #fff;
+}
+.Services .services .cards .card h5{
+    display: flex;
+    align-items: end;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 500;
+    padding-left: 4rem;
+}
+.Services .services .cards:hover .card .card-title1,
+.Services .services .cards:hover .card .card-title2,
+.Services .services .cards:hover .card .card-title3,
+.Services .services .cards:hover .card .card-title4,
+.Services .services .cards:hover .card .card-title5,
+.Services .services .cards:hover .card .card-title6{
+    color: rgb(199, 152, 0);
+    transition: all .4s ease 0s;
+
+}
+.Services .services .cards .card p{
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+    color: #d4d4d4;
+}
+@media screen and (max-width:991px) {
+    .Services .services .cards {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    }
+    .Services .services-text p{
+        font-size: 1rem;
+        color: #bdbdbd;
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+    
+}
