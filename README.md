@@ -9,7 +9,11 @@ This project was created to showcase modern UI/UX principles, frontend skills, a
 [👉 View the Live Site](https://ng-technology.vercel.app/)
 
 ---
-(./screenshots/home.png)
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](./screenshots/home.png)
+
 ## 🚀 Project Highlights
 
 - 🌐 Responsive design (desktop, tablet, mobile)
