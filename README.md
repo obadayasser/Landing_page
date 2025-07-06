@@ -1,8 +1,8 @@
-# React + Vite
+# 💼 NG Technology – Software Company Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and professional **Landing Page** for a software company built with **React.js**.  
+The page showcases company services, mission, and call-to-action sections — optimized for responsiveness and fast performance.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+[👉 View the Live Site](https://ng-technology.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
