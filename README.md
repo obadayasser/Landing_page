@@ -33,7 +33,5 @@ This project was created to showcase modern UI/UX principles, frontend skills, a
 | **Git & GitHub** | Version control and collaboration |
 | **Vercel**    | Hosting and continuous deployment |
 
----
 
-## 📂 Folder Structure
 
